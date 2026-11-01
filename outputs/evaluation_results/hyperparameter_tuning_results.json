@@ -1,0 +1,52 @@
+{
+    "champion_model_name": "Gradient Boosting",
+    "champion_test_rmse": 23512.998602542284,
+    "champion_test_r2": 0.9279220872294685,
+    "tuning_details": {
+        "XGBoost": {
+            "best_params": {
+                "subsample": 0.7,
+                "reg_lambda": 2.0,
+                "reg_alpha": 1.0,
+                "n_estimators": 200,
+                "max_depth": 3,
+                "learning_rate": 0.05,
+                "colsample_bytree": 0.7
+            },
+            "best_cv_rmse": 22413.9078125,
+            "baseline_test_rmse": 24202.353515625,
+            "tuned_test_rmse": 24283.5625,
+            "tuned_test_mae": 15690.3271484375,
+            "tuned_test_r2": 0.9231204390525818,
+            "improvement_pct": -0.3355416832605623
+        },
+        "Gradient Boosting": {
+            "best_params": {
+                "subsample": 0.85,
+                "n_estimators": 250,
+                "max_depth": 3,
+                "learning_rate": 0.08
+            },
+            "best_cv_rmse": 22201.967313661316,
+            "baseline_test_rmse": 28422.86388527585,
+            "tuned_test_rmse": 23512.998602542284,
+            "tuned_test_mae": 14951.993527193317,
+            "tuned_test_r2": 0.9279220872294685,
+            "improvement_pct": 17.27435103848584
+        },
+        "Random Forest": {
+            "best_params": {
+                "n_estimators": 180,
+                "min_samples_split": 2,
+                "max_features": 0.4,
+                "max_depth": 12
+            },
+            "best_cv_rmse": 24750.137653129077,
+            "baseline_test_rmse": 29382.186670686377,
+            "tuned_test_rmse": 27821.302249820495,
+            "tuned_test_mae": 16295.75487247953,
+            "tuned_test_r2": 0.8990884040693599,
+            "improvement_pct": 5.312349412112078
+        }
+    }
+}

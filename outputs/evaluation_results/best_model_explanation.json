@@ -1,0 +1,13 @@
+{
+    "best_model_name": "XGBoost Regressor",
+    "test_rmse": 24202.353515625,
+    "test_mae": 14885.5380859375,
+    "test_r2": 0.9236337542533875,
+    "cv_rmse": 23096.791015625,
+    "key_reasons_for_superiority": [
+        "Second-Order Gradient Optimization: Unlike standard gradient boosting which utilizes only first-order gradients, XGBoost employs second-order Taylor expansion (gradients and Hessians) to optimize the loss objective with higher curvature precision.",
+        "Explicit L1 & L2 Regularization: Built-in penalization on leaf weights (lambda and alpha) strictly regulates tree complexity, preventing the algorithm from over-indexing on rare neighborhood anomalies or atypical architectural configurations.",
+        "Handling High-Dimensional Sparsity: With over 300 encoded structural and dummy variables, XGBoost leverages sparsity-aware split finding and column subsampling (colsample_bytree = 0.8), ensuring robust non-linear splits without memory bloat.",
+        "Non-Linear Feature Interactions: Real estate valuation is intrinsically non-linear (e.g. high quality amplifies the per-square-foot rate). Tree structures capture high-order synergistic interactions (Quality * LivingArea * Age) far more effectively than linear models."
+    ]
+}
