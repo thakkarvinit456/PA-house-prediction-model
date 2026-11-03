@@ -1,11 +1,26 @@
 # House Price Prediction Using Machine Learning
 ### An End-to-End Predictive Analytics System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen.svg?style=for-the-badge&logo=streamlit)](https://5d0bc48491ffa8.lhr.life)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-thakkarvinit456%2FPA--house--prediction--model-blue.svg?style=for-the-badge&logo=github)](https://github.com/thakkarvinit456/PA-house-prediction-model)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Deploy%20Ready-FF4B4B.svg?style=for-the-badge&logo=streamlit)](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
+
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4%2B-orange.svg)](https://scikit-learn.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.0%2B-red.svg)](https://xgboost.readthedocs.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-brightgreen.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+
+## 🌐 Live Web Application & Direct Links
+
+* 🔗 **Live Web Application (Direct Link):** [https://5d0bc48491ffa8.lhr.life](https://5d0bc48491ffa8.lhr.life)
+* 💻 **Local Dashboard URL:** [http://localhost:8502](http://localhost:8502)
+* 🚀 **1-Click Streamlit Community Cloud Deploy:** [Deploy App on Streamlit Cloud](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
+* 📂 **GitHub Repository:** [https://github.com/thakkarvinit456/PA-house-prediction-model](https://github.com/thakkarvinit456/PA-house-prediction-model)
+
+---
 
 An enterprise-grade, reproducible, end-to-end Machine Learning portfolio and university viva project implementing the complete data science lifecycle on the **Ames Housing Dataset** (Dean De Cock, 2011).
 

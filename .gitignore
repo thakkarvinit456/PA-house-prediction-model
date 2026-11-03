@@ -33,7 +33,7 @@ ENV/
 *.swo
 
 # Streamlit logs & cache
-.streamlit/
+.streamlit/secrets.toml
 
 # OS specific
 .DS_Store

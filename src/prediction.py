@@ -34,7 +34,14 @@ class HousePricePredictor:
     Production-ready inference service for the House Price Prediction system.
     """
     def __init__(self, model_name: str = "Tuned Champion (Gradient Boosting)"):
-        self.preprocessor = HousingPreprocessor.load(os.path.join(MODEL_DIR, "preprocessor.joblib"))
+        prep_path = os.path.join(MODEL_DIR, "preprocessor.joblib")
+        try:
+            self.preprocessor = HousingPreprocessor.load(prep_path)
+        except Exception:
+            from model_training import prepare_train_test_data
+            prepare_train_test_data()
+            self.preprocessor = HousingPreprocessor.load(prep_path)
+            
         self.model_name = model_name
         self.model = self._load_model(model_name)
         
@@ -58,7 +65,14 @@ class HousePricePredictor:
         path = model_map.get(model_name, os.path.join(MODEL_DIR, "tuned_best_model.joblib"))
         if not os.path.exists(path):
             path = os.path.join(MODEL_DIR, "tuned_best_model.joblib")
-        return joblib.load(path)
+            
+        try:
+            return joblib.load(path)
+        except Exception:
+            from model_training import prepare_train_test_data, train_and_cross_validate_all
+            X_tr, _, y_tr, _, _, _, _ = prepare_train_test_data()
+            train_and_cross_validate_all(X_tr, y_tr)
+            return joblib.load(path)
 
     def set_model(self, model_name: str):
         self.model_name = model_name
