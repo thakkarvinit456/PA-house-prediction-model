@@ -36,12 +36,23 @@ The system implements data ingestion, data understanding, exploratory data analy
 
 ---
 
+## 🎓 Viva Voce & Defense Toolkit
+
+* 🎤 **[VIVA_PRESENTATION_SCRIPT.md](VIVA_PRESENTATION_SCRIPT.md):** 60-second elevator pitch, 3-minute structured speech, and top 10 examiner Q&A with model answers.
+* ⚡ **1-Click Terminal Viva Demo:** Run `python viva_demo.py` to immediately showcase dataset stats, benchmark table, and 3 live property inference tests in < 1 second.
+
+---
+
 ## 🏗️ Project Architecture & Directory Structure
 
 ```text
 house-price-prediction/
 │
+├── viva_demo.py                   # 1-Click Terminal Viva Demonstration Script
+├── VIVA_PRESENTATION_SCRIPT.md    # Complete Viva Speech & Top 10 Examiner Defense Q&A
 ├── app.py                         # 12-Page Streamlit Analytics & Prediction Dashboard
+├── server.py                      # Lightweight Web Server for index.html (Port 8000)
+├── index.html                     # Interactive Web Application & Analytics Dashboard
 ├── requirements.txt               # Pinned Python package dependencies
 ├── README.md                      # Comprehensive project documentation & guide
 │
