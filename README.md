@@ -1,7 +1,7 @@
 # House Price Prediction Using Machine Learning
 ### An End-to-End Predictive Analytics System
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen.svg?style=for-the-badge&logo=streamlit)](https://4642ad0725fd16.lhr.life)
+[![Live Web App](https://img.shields.io/badge/Live%20Website-GitHub%20Pages-2563EB.svg?style=for-the-badge&logo=github)](https://thakkarvinit456.github.io/PA-house-prediction-model/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-thakkarvinit456%2FPA--house--prediction--model-blue.svg?style=for-the-badge&logo=github)](https://github.com/thakkarvinit456/PA-house-prediction-model)
 [![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Deploy%20Ready-FF4B4B.svg?style=for-the-badge&logo=streamlit)](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
 
@@ -15,8 +15,10 @@
 
 ## 🌐 Live Web Application & Direct Links
 
-* 🔗 **Live Web Application (Direct Link):** [https://4642ad0725fd16.lhr.life](https://4642ad0725fd16.lhr.life)
-* 💻 **Local Dashboard URL:** [http://localhost:8502](http://localhost:8502)
+* 🔗 **Live Website (Direct GitHub Pages):** [https://thakkarvinit456.github.io/PA-house-prediction-model/](https://thakkarvinit456.github.io/PA-house-prediction-model/)
+* 💻 **1-Click Local Launch:** Double click `launch_website.bat` or open `index.html` in your browser.
+* 🚀 **1-Click Streamlit Community Cloud Deploy:** [Deploy App on Streamlit Cloud](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
+* 📂 **GitHub Repository:** [https://github.com/thakkarvinit456/PA-house-prediction-model](https://github.com/thakkarvinit456/PA-house-prediction-model)
 * 🚀 **1-Click Streamlit Community Cloud Deploy:** [Deploy App on Streamlit Cloud](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
 * 📂 **GitHub Repository:** [https://github.com/thakkarvinit456/PA-house-prediction-model](https://github.com/thakkarvinit456/PA-house-prediction-model)
 
