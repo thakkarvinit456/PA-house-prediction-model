@@ -15,12 +15,18 @@
 
 ## 🌐 Live Web Application & Direct Links
 
-* 🔗 **Live Website (Direct GitHub Pages):** [https://thakkarvinit456.github.io/PA-house-prediction-model/](https://thakkarvinit456.github.io/PA-house-prediction-model/)
-* 💻 **1-Click Local Launch:** Double click `launch_website.bat` or open `index.html` in your browser.
-* 🚀 **1-Click Streamlit Community Cloud Deploy:** [Deploy App on Streamlit Cloud](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
+* 🔗 **Live Website (GitHub Pages):** [https://thakkarvinit456.github.io/PA-house-prediction-model/](https://thakkarvinit456.github.io/PA-house-prediction-model/)
+* 💻 **Local Interactive App:** Run `python server.py` and open [http://localhost:8000](http://localhost:8000)
 * 📂 **GitHub Repository:** [https://github.com/thakkarvinit456/PA-house-prediction-model](https://github.com/thakkarvinit456/PA-house-prediction-model)
-* 🚀 **1-Click Streamlit Community Cloud Deploy:** [Deploy App on Streamlit Cloud](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
-* 📂 **GitHub Repository:** [https://github.com/thakkarvinit456/PA-house-prediction-model](https://github.com/thakkarvinit456/PA-house-prediction-model)
+* 🚀 **1-Click Streamlit Cloud Deploy:** [Deploy App on Streamlit Cloud](https://share.streamlit.io/deploy?repository=thakkarvinit456/PA-house-prediction-model&branch=main&mainModule=app.py)
+
+### 🌟 Key Web App Features
+* **Valuation Calculator:** Real-time multi-variable valuation calibrated to Ames regression weights ($ USD & ₹ INR at ₹85/$).
+* **Interactive Graphs (Chart.js):** Price vs living area scatter with house marker, quality rating bar chart, Ames neighborhood median rankings, model variance benchmark comparison.
+* **Ames Dataset Explorer:** Interactive searchable/filterable data table, genuine dataset statistics, and 1-click full CSV dataset download.
+* **Mortgage & EMI Calculator:** Monthly amortization breakdown, loan principal, property tax, insurance, and dynamic doughnut chart.
+* **Remodel ROI Simulator:** Kitchen, bathroom, deck/patio, finished basement upgrade return-on-investment analysis.
+* **Academic Viva & Benchmark Q&A:** Comprehensive technical breakdown answering top viva examiner questions.
 
 ---
 
